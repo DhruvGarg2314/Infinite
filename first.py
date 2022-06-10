@@ -9,6 +9,7 @@ MYSQL_PASSWORD = "dhruv2314"
 MYSQL_PORT = "3306"
 
 MAX_NONCE=30000000
+##Edit file
 
 def SHA256(data):
     return sha256(data.encode('utf-8')).hexdigest()
