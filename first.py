@@ -10,6 +10,7 @@ MYSQL_PORT = "3306"
 
 MAX_NONCE=30000000
 ##Edit file
+##Second Edit fot push
 
 def SHA256(data):
     return sha256(data.encode('utf-8')).hexdigest()
